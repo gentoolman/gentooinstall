@@ -36,7 +36,7 @@ env-update && source /etc/profile && export PS1="(chroot) ${PS1}"
 
 emerge  sys-kernel/linux-firmware sys-kernel/installkernel-gentoo sys-kernel/gentoo-kernel-bin
 
-bash genfstab.sh > /etc/fstab
+bash /gentooinstall/genfstab.sh > /etc/fstab
 
 emerge   net-misc/networkmanager 	sys-fs/e2fsprogs 	sys-fs/dosfstools sudo 
 
