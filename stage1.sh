@@ -66,4 +66,4 @@ test -L /dev/shm && rm /dev/shm && mkdir /dev/shm
 mount --types tmpfs --options nosuid,nodev,noexec shm /dev/shm
 chmod 1777 /dev/shm /run/shm
 chroot /mnt/gentoo /bin/bash
-
+git clone https://github.com/gentoolman/gentooinstall /mnt/root/gentooinstall
